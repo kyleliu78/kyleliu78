@@ -1,6 +1,7 @@
 let score = 5;
 const scoreDisplay = document.getElementById("score");
 const button = document.getElementById("clickBtn");
+const button2 = document.getElementById("clickBtn");
     const canvas = document.getElementById('myCanvas');
     const ctx = canvas.getContext('2d');
     // Example: Draw a red rectangle
@@ -37,4 +38,9 @@ button.addEventListener("click", () => {
   scoreDisplay.textContent = score;
 });
 
+function changeScreen() {
+button2.addEventListener("click", () => {
+  score++;
+  scoreDisplay.textContent = score;
+});
 

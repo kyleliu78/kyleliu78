@@ -1,0 +1,30 @@
+body{
+    font-size: 2em;
+    font-family: Arial, Verdana;
+    background-color: #e9e6e6;
+    flex-direction: column;
+    text-align: center;
+}
+.catForm{
+    margin: 25px;
+}
+.catInput{
+    padding: 10px;
+    border-radius: 5px;
+}
+button[type = "submit"]{
+    padding: 8px;
+    border-radius: 3px;
+    background-color: rgb(142, 189, 142);
+    cursor: pointer;
+}
+button[type = "submit"]:hover{
+    background-color: rgb(115, 154, 115);
+}
+p{
+    font-size: 0.75em;
+}
+.errorDisplay{
+    color: rgb(246, 35, 35);
+    text-align: center;
+}
